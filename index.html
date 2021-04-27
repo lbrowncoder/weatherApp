@@ -8,18 +8,23 @@
   <title>Weather</title>
  </head>
  <body>
-  <div class="location">
-   <h1 class="location-timezone">Location</h1>
-   <p>Icon</p>
-  </div>
-  <div class="temperature">
-   <div class="degree-section">
-    <h2 class="temperatureDegree">34</h2>
-    <span>F</span>
-   </div>
-   <div class="temperatureDescription">Warm with a breeze</div>
-  </div>
-
+     <div class="app-wrap">
+         <header>
+             <input type="text" autocomplete="off" class="search-box" placeholder="search for City">
+         </header>
+         <main>
+             <section class="location">
+                 <div class="city">Birmingham, gb</div>
+                 <div class="date">Monday 26yth April</div>
+             </section>
+             <div class="current">
+                 <div class="temp">15<span>°c</span></div>
+                 <div class="weatber">Sunny</div>
+                 <div class="hi-low">13°c/16°c</div>
+             </div>
+         </main>
+     </div>
+ 
   <script src="app.js"></script>
  </body>
 </html>
