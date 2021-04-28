@@ -7,7 +7,7 @@ body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
     background: #222;
-    /* background-image: url('./icons/wolfgang-hasselmann-bR_-gllg7Bs-unsplash.jpg'); */
+    background-image: url('./icons/wolfgang-hasselmann-bR_-gllg7Bs-unsplash.jpg');
     /* background-image: url('https://source.unsplash.com/1600x900/?landscape'); */
     font-size: 120%;
   }
@@ -53,9 +53,9 @@ body {
     width: calc(100% - 100px);
   }
 
- /* input.search-bar:focus {
+ input.search-bar:focus {
     background-color:white;
-} */
+}
   
   button:hover {
     background: #7c7c7c6b;
@@ -82,120 +82,8 @@ body {
     position: relative;
   }
 
-  /* .weather.loading:after {
-    visibility: visible;
-    content: "Loading...";
-    color: white;
-    position: absolute;
-    top: 0;
-    left: 20px;
-  } */
-
-  /* .icon {
-      height: 1rem;
-      width: 1rem;
-      color: white;
-  } */
-
-  /* .header {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-  } */
-
-/* * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    background: linear-gradient(rgb(47,150,163), rgb(47,62,143));
-    font san-serif;
+  .icon {
+    height: 1rem;
+    width: 1rem;
     color: white;
 }
-
-.app-wrap {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
-
-header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 50px 15px 15px;
-}
-
-header input {
-    width:100%;
-    max-width: 280px;
-    padding: 10px 15px;
-    border: none;
-    outline: none;
-    background-color: white;
-    border-radius: 16px 0px 16px 0px;
-    border-bottom:  3px solid orange;
-    font-size: 20px;
-    font-weight: 300;
-    transition: 0.2s ease-in-out;
-}
-
-header input:focus {
-    background-color: peachpuff;
-}
-
-main {
-    flex: 1 1 100%;
-    padding:  25px 25px 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
-
-.location .city {
-    color: #fff;
-    font-size: 32px;
-    font-weight: 500;
-    margin-bottom: 5px;
-}
-
-.location .date {
-    color: #fff;
-    font-size: 16px
-}
-
-.current .temp {
-    color: #fff;
-    font-size: 102px;
-    font-weight: 900;
-    margin:  30px 0px;
-    text-shadow: 2px 3px black;
-}
-
-.current .temp span {
-    font-weight: 500;
-}
-
-.current .weather {
-    color: white;
-    font-size: 32px;
-    font-weight: 700;
-    font-style:italic;
-    margin-bottom: 15px;
-    text-shadow:  0px 3 px black;
-}
-
-.current .hi-low {
-    color: white;
-    font-size: 24px;
-    font-weight: 500;
-    text-shadow: 0px 4px black;
-} */
